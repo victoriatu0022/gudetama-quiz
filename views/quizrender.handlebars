@@ -1,0 +1,153 @@
+
+<h5>High Scores</h5>
+{{#each scores}}
+   {{this.name}} : {{this.score}} <br>
+   <hr>
+{{/each}}
+
+<form method="POST" action="/submit">
+<h5>Your name:  </h5>
+   <input type="text"  name="name" placeholder="John Doe">
+
+<form method="POST" action="/submit">
+    <h2>Question One</h2>
+    <p>What does gude mean?</p>
+
+    <input type="radio" name="question_one" value="happy">  happy <br>
+
+    <input type="radio" name="question_one" value="lazy">   lazy <br>
+
+    <input type="radio" name="question_one" value="sad">  sad <br>
+
+    <input type="radio" name="question_one" value="hungry">  hungry
+    <br>
+
+    <hr>
+
+    <h2>Question Two</h2>
+    <p>What does tama mean?</p>
+
+    <input type="radio" name="question_two" value="bacon">  bacon<br>
+
+    <input type="radio" name="question_two" value="emoji">  emoji<br>
+
+    <input type="radio" name="question_two" value="egg">  egg<br>
+
+    <input type="radio" name="question_two" value="gif">  gif
+    <br>
+
+    <hr>
+
+    <h2>Question Three</h2>
+    <p>What makes gudetama cry?</p>
+
+    <input type="radio" name="question_three" value="egg shell">  egg shell<br>
+
+    <input type="radio" name="question_three" value="pepper">  pepper <br>
+
+    <input type="radio" name="question_three" value="chicken">  chicken <br>
+
+    <input type="radio" name="question_three" value="bacon">  bacon
+    <br>
+
+    <hr>
+
+    <h2>Question Four</h2>
+    <p>How does gudetama transform?</p>
+
+    <input type="radio" name="question_four" value="getting cooked">  getting cooked <br>
+
+    <input type="radio" name="question_four" value="getting jiggled">  getting jiggled<br>
+
+    <input type="radio" name="question_four" value="getting rolled">  getting rolled<br>
+
+    <input type="radio" name="question_four" value="getting shaked">  getting shaked
+    <br>
+
+    <hr>
+
+
+    <h2>Question Five</h2>
+    <p>Could there be more than one gudetama?</p>
+
+    <input type="radio" name="question_five" value="yes">  yes<br>
+
+    <input type="radio" name="question_five" value="no">  no<br>
+
+    <input type="radio" name="question_five" value="wtf">  wtf<br>
+
+    <input type="radio" name="question_five" value="no clue">  no clue
+    <br>
+    <hr>
+
+  <h2>Question Six</h2>
+    <p>How do you wake gudetama?</p>
+
+    <input type="radio" name="question_six" value="with egg shells">  with egg shells<br>
+
+    <input type="radio" name="question_six" value="with chopsticks">  with chopsticks<br>
+
+    <input type="radio" name="question_six" value="with a fork">  with a fork<br>
+
+    <input type="radio" name="question_six" value="with pepper">  with pepper
+    <br>
+    <hr>
+
+
+
+  <h2>Question Seven</h2>
+    <p>How does gudetama not like?</p>
+
+    <input type="radio" name="question_seven" value="soy sauce">  soy sauce<br>
+
+    <input type="radio" name="question_seven" value="humans">  humans<br>
+
+    <input type="radio" name="question_seven" value="birds">  birds<br>
+
+    <input type="radio" name="question_seven" value="worms">  worms
+    <br>
+    <hr>
+
+  <h2>Question Eight</h2>
+    <p>What does gudatama eat?</p>
+
+    <input type="radio" name="question_eight" value="soy sauce">  soy sauce<br>
+
+    <input type="radio" name="question_eight" value="ketchup">  ketchup<br>
+
+    <input type="radio" name="question_eight" value="salt">  salt<br>
+
+    <input type="radio" name="question_eight" value="pepper">  pepper
+    <br>
+    <hr>
+
+  <h2>Question Nine</h2>
+    <p>What is gudeatama's blanket?</p>
+
+    <input type="radio" name="question_nine" value="lettuce">  lettuce<br>
+
+    <input type="radio" name="question_nine" value="bacon">  bacon<br>
+
+    <input type="radio" name="question_nine" value="soup">  soup<br>
+
+    <input type="radio" name="question_nine" value="egg shell">  egg shell
+    <br>
+    <hr>
+
+  <h2>Question Ten</h2>
+    <p>Do you like gudetama?</p>
+
+    <input type="radio" name="question_ten" value="yes">  yes<br>
+
+    <input type="radio" name="question_ten" value="no">  no<br>
+
+    <input type="radio" name="question_ten" value="maybe">  maybe<br>
+
+    <input type="radio" name="question_ten" value="nah">  nah
+    <br>
+    <hr>
+
+
+
+    <input type="submit" value="submit">    
+</form>
